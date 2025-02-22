@@ -8,7 +8,7 @@ const fs = require("fs");
 const credentials = JSON.parse(fs.readFileSync("credentials.json", "utf-8"));
 
 // Google Sheets ID (get it from the URL of your Google Sheet)
-const SPREADSHEET_ID = "106928848018211240404";
+const SPREADSHEET_ID = "#";
 
 const app = express();
 app.use(cors());
